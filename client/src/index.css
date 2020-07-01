@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.background {
+  background: url("./mainbg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+.margin {
+  padding-top: 10rem;
+}
+.middle {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.transparent {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+.transparent1 {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+.mainpage {
+  background: url("./blog1.jpg");
+}
+.middle1 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.colorrr {
+  background-color: rgba(218, 180, 192, 0.938);
+}
+
+.radius {
+  border-radius: 2rem !important;
+}
+.colorr {
+  background-color: rgb(114, 223, 250);
+}
+.radius1 {
+  border-radius: 1rem !important;
+}
